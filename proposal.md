@@ -12,7 +12,8 @@
 
 ## Tema: Adopción de Mascotas
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+
+Sistema de gestión de adopción de mascotas que conecta adoptantes con publicadores (refugios y rescatistas). Permite registrar usuarios, publicar animales disponibles, evaluar la compatibilidad entre adoptantes y mascotas, y dar seguimiento a cada caso de adopción. Su objetivo es agilizar el proceso de adopción y garantizar vínculos responsables y duraderos.
 
 ### Modelo
 ![imagen del modelo]()
