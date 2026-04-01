@@ -2,14 +2,15 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
-
+* 53948 – Altamirano, Marianela Estefanía
+* 54027 – Sayago, Valentina Nair
+* 54207 – Spirce, Yasmín
+ 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+* Frontend: https://github.com/dsw-2026/frontend
+* Backend: https://github.com/dsw-2026/backend
 
-## Tema
+## Tema: Adopción de Mascotas
 ### Descripción
 *2 a 6 líneas describiendo el negocio (menos es más)*
 
