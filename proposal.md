@@ -25,8 +25,8 @@ Sistema de gestión de adopción de mascotas que conecta adoptantes con publicad
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario<br>2. CRUD Macota<br>3. CRUD Provincia|
-|CRUD dependiente|1. CRUD Solicitud {depende de} CRUD Adoptante, CRUD Mascota<br>2. CRUD Característica {depende de} CRUD Mascota|
+|CRUD simple|1. CRUD Usuario<br>2. CRUD Especie <br>3. CRUD Provincia|
+|CRUD dependiente|1. CRUD Mascota {depende de} CRUD Publicador, CRUD Especie <br>2. CRUD Característica {depende de} CRUD Mascota|
 |Listado<br>+<br>detalle| 1. Listado de mascotas disponibles para adoptar filtrado por especie, muestra nombre, imagen, edad, tamaño, sexo, caracter, energia, vacunación y castración => detalle muestra datos completos de la mascota<br> 2. Listado de solicitudes de adopción en proceso, filtrado por fecha descendente, muestra código de solicitud, nombre adoptante, nombre publicador, días transcurridos desde fecha solicitud => detalle CRUD Solicitud|
 |CUU/Epic|1. Solicitar adopción de una mascota<br>2. Publicar mascota en adopción|
 
