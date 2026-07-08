@@ -16,7 +16,7 @@
 Sistema de gestión de adopción de mascotas que conecta adoptantes con publicadores (refugios y rescatistas) de toda la Argentina. Permite registrar usuarios, publicar animales disponibles y gestionar el proceso de postulación a una adopción. Su objetivo es agilizar el proceso de adopción y garantizar vínculos responsables.
 
 ### Modelo
-![Modelo_de_Dominio_Version_2](https://github.com/user-attachments/assets/2e5ee04c-a109-4f86-80c5-ec0585ac6359)
+<img width="1141" height="971" alt="Modelo_de_Dominio_Version_3" src="https://github.com/user-attachments/assets/50955df6-1e20-4079-b9a6-c63e43ccea5b" />
 
 ## Alcance Funcional 
 
