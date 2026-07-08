@@ -13,7 +13,7 @@
 ## Tema: Adopción de Mascotas
 ### Descripción
 
-Sistema de gestión de adopción de mascotas que conecta adoptantes con publicadores (refugios y rescatistas) de toda la Argentina. Permite registrar usuarios, publicar animales disponibles, evaluar la compatibilidad entre adoptantes y mascotas, y dar seguimiento a cada caso de adopción. Su objetivo es agilizar el proceso de adopción y garantizar vínculos responsables y duraderos.
+Sistema de gestión de adopción de mascotas que conecta adoptantes con publicadores (refugios y rescatistas) de toda la Argentina. Permite registrar usuarios, publicar animales disponibles y gestionar el proceso de solicitud de adopción entre adoptante y publicador.
 
 ### Modelo
 ![Modelo_de_Dominio_Version_2](https://github.com/user-attachments/assets/2e5ee04c-a109-4f86-80c5-ec0585ac6359)
