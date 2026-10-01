@@ -4,8 +4,7 @@
 ### Integrantes
 * 53948 – Altamirano, Marianela Estefanía
 * 54027 – Sayago, Valentina Nair
-* 54207 – Spirce, Yasmín
- 
+
 ### Repositorios
 * Frontend: https://github.com/dsw-2026/frontend
 * Backend: https://github.com/dsw-2026/backend
@@ -13,36 +12,36 @@
 ## Tema: Adopción de Mascotas
 ### Descripción
 
-Sistema de gestión de adopción de mascotas que conecta adoptantes con publicadores (refugios y rescatistas) de toda la Argentina. Permite registrar usuarios, publicar animales disponibles y gestionar el proceso de postulación a una adopción. Su objetivo es agilizar el proceso de adopción y garantizar vínculos responsables.
+Sistema de gestión de adopción de mascotas que conecta adoptantes con publicadores (refugios, rescatistas y hogares de tránsito) de toda la Argentina. Permite registrar usuarios, publicar animales disponibles y gestionar el proceso de postulación a una adopción. Su objetivo es agilizar el proceso de adopción y garantizar vínculos responsables.
 
 ### Modelo
-<img width="1141" height="971" alt="Modelo_de_Dominio_Version_3" src="https://github.com/user-attachments/assets/50955df6-1e20-4079-b9a6-c63e43ccea5b" />
 
-## Alcance Funcional 
+<img width="1282" height="1222" alt="Modelo_de_Dominio_tpDSW drawio" src="https://github.com/user-attachments/assets/e91770fe-1c79-4dfa-996c-4cf5666860d9" />
+
+
+## Alcance Funcional
 
 ### Alcance Mínimo
 
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario<br>2. CRUD Especie <br>3. CRUD Provincia|
-|CRUD dependiente|1. CRUD Mascota {depende de} CRUD Publicador, CRUD Especie <br>2. CRUD Característica {depende de} CRUD Mascota|
-|Listado<br>+<br>detalle| 1. Listado de mascotas disponibles para adoptar filtrado por especie, muestra nombre, imagen, edad, tamaño, sexo, caracter, energia, vacunación y castración => detalle muestra datos completos de la mascota<br> 2. Listado de solicitudes de adopción en proceso, filtrado por fecha descendente, muestra código de solicitud, nombre adoptante, nombre publicador, días transcurridos desde fecha solicitud => detalle CRUD Solicitud|
+|CRUD simple|1. CRUD Usuario<br>2. CRUD Especie<br>3. CRUD Provincia|
+|CRUD dependiente|1. CRUD Mascota {depende de} CRUD Publicador, CRUD Especie<br>2. CRUD Característica {depende de} CRUD Mascota<br>3. CRUD Localidad {depende de} CRUD Provincia|
+|Listado<br>+<br>detalle|1. Listado de mascotas disponibles para adoptar filtrado por especie, muestra nombre, imagen, edad, tamaño, sexo, carácter, energía, vacunación y castración => detalle muestra datos completos de la mascota<br>2. Listado de solicitudes de adopción filtrado por estado, muestra mascota, adoptante, compatibilidad y estado => detalle muestra datos completos de la solicitud (mascota, adoptante y desglose de compatibilidad)|
 |CUU/Epic|1. Solicitar adopción de una mascota<br>2. Publicar mascota en adopción|
-
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Usuario<br>2. CRUD Localidad<br>3. CRUD Provincia<br>4. CRUD Adoptante<br>5. CRUD Publicador<br>6. CRUD Admin<br>7. CRUD Mascota<br>8. CRUD Especie<br>9. CRUD Característica<br>10. CRUD Solicitud <br>|
-|CUU/Epic|1. Solicitar adopción de una mascota<br>2. Publicar mascota en adopción<br>3. Adoptar una mascota|
-
+|CRUD|1. CRUD Usuario<br>2. CRUD Localidad<br>3. CRUD Provincia<br>4. CRUD Adoptante<br>5. CRUD Publicador<br>6. CRUD Admin<br>7. CRUD Mascota<br>8. CRUD Especie<br>9. CRUD Característica<br>10. CRUD Solicitud|
+|CUU/Epic|1. Solicitar adopción de una mascota<br>2. Publicar mascota en adopción<br>3. Gestionar solicitud (aprobar / rechazar)|
 
 ### Alcance Adicional Voluntario
 
 |Req|Detalle|
 |:-|:-|
-|Listados |-|
-|CUU/Epic|-<br>-|
-|Otros|-|
+|Listados|1. Listado de solicitudes propias del adoptante (historial), mostrando el estado de cada una (pendiente / aprobada / rechazada)|
+|CUU/Epic|1. Cancelar una solicitud de adopción (por parte del adoptante)<br>2. Marcar mascotas como favoritas y consultarlas luego|
+|Otros|1. Envío de email al adoptante confirmando la creación de su solicitud de adopción<br>2. Notificación al publicador cuando recibe una nueva solicitud sobre una de sus mascotas|
 
