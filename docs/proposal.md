@@ -16,7 +16,7 @@ Sistema de gestión de adopción de mascotas que conecta adoptantes con publicad
 
 ### Modelo
 
-<img width="1282" height="1222" alt="Modelo_de_Dominio_tpDSW drawio" src="https://github.com/user-attachments/assets/e91770fe-1c79-4dfa-996c-4cf5666860d9" />
+ <img width="1282" height="1132" alt="MD-en drawio" src="https://github.com/user-attachments/assets/a3e3b28d-1731-4d8f-954d-c6bc5e8ab713" />
 
 
 ## Alcance Funcional
